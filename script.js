@@ -24,6 +24,25 @@
   }, { passive: true });
   updateProgress();
 
+  // --- Header behavior: hide on scroll down, show on scroll up ---
+  const header = document.querySelector('.site-header');
+  let lastScrollY = window.scrollY || 0;
+
+  function updateHeaderVisibility() {
+    if (!header) return;
+    const currentY = window.scrollY || 0;
+    const scrollingDown = currentY > lastScrollY;
+    const pastHero = currentY > 120;
+    const keepOpen = document.body.classList.contains('nav-open');
+
+    header.classList.toggle('site-header--hidden', scrollingDown && pastHero && !keepOpen);
+    lastScrollY = currentY;
+  }
+
+  window.addEventListener('scroll', () => {
+    updateHeaderVisibility();
+  }, { passive: true });
+
   // --- Reveal on scroll ---
   const revealEls = Array.from(document.querySelectorAll('.reveal'));
   const io = new IntersectionObserver((entries) => {
@@ -46,6 +65,7 @@
     toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     document.body.classList.toggle('nav-open', open);
     mobileNav.hidden = !open;
+    if (!open) updateHeaderVisibility();
   }
 
   if (toggle && mobileNav) {
