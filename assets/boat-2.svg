@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="60" x2="600" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A84FF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#63C7FF" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="420" y1="40" x2="560" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#63C7FF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#0A84FF" stop-opacity="0.10"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="640" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="500" cy="110" r="72" fill="url(#sun)"/>
+  <path d="M0 274c130-30 248-36 356-18 96 16 184 10 284-20v124H0V274z" fill="rgba(7,18,41,.04)"/>
+  <!-- boat -->
+  <path d="M200 238h240l18 12c-30 34-68 54-120 54s-90-20-120-54l-18-12z" fill="rgba(255,255,255,.86)" stroke="rgba(7,18,41,.16)" stroke-width="2"/>
+  <path d="M284 216h88c10 0 18 8 18 18v10H266v-10c0-10 8-18 18-18z" fill="rgba(255,255,255,.66)" stroke="rgba(7,18,41,.14)" stroke-width="2"/>
+  <path d="M154 164c34-16 70-18 110-8" stroke="rgba(7,18,41,.14)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M470 178c-32-14-64-16-98-6" stroke="rgba(7,18,41,.12)" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="350" cy="252" r="6" fill="#0A84FF" opacity="0.85"/>
+</svg>

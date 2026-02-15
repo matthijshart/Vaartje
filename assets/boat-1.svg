@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="40" x2="560" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A84FF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#63C7FF" stop-opacity="0.16"/>
+    </linearGradient>
+    <linearGradient id="w" x1="200" y1="250" x2="440" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A84FF" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#63C7FF" stop-opacity="0.20"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="640" height="360" rx="28" fill="url(#bg)"/>
+  <path d="M0 268c108-34 206-44 300-24 114 24 214 20 340-16v132H0V268z" fill="url(#w)"/>
+  <!-- canal arcs -->
+  <path d="M124 118c86-62 174-62 260 0" stroke="rgba(7,18,41,.18)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M150 142c70-50 140-50 210 0" stroke="rgba(7,18,41,.14)" stroke-width="8" stroke-linecap="round"/>
+  <!-- boat -->
+  <path d="M170 210h300l22 16c-36 40-84 64-150 64s-114-24-150-64l-22-16z" fill="rgba(255,255,255,.88)" stroke="rgba(7,18,41,.18)" stroke-width="2"/>
+  <path d="M250 184h140c18 0 32 14 32 32v18H218v-18c0-18 14-32 32-32z" fill="rgba(255,255,255,.70)" stroke="rgba(7,18,41,.16)" stroke-width="2"/>
+  <circle cx="414" cy="230" r="6" fill="#0A84FF" opacity="0.85"/>
+  <!-- WC hint -->
+  <rect x="404" y="190" width="26" height="18" rx="8" fill="rgba(10,132,255,.18)" stroke="rgba(10,132,255,.30)"/>
+  <path d="M411 204c2 2 6 2 8 0" stroke="rgba(7,18,41,.55)" stroke-width="2" stroke-linecap="round"/>
+</svg>

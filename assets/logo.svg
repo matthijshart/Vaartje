@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="g" x1="10" y1="10" x2="54" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A84FF"/>
+      <stop offset="1" stop-color="#63C7FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="18" fill="rgba(255,255,255,.85)"/>
+  <rect x="4.5" y="4.5" width="55" height="55" rx="18" stroke="rgba(7,18,41,.12)"/>
+  <!-- canal rings -->
+  <circle cx="32" cy="32" r="19" stroke="url(#g)" stroke-width="4.5" opacity="0.95"/>
+  <circle cx="32" cy="32" r="13" stroke="url(#g)" stroke-width="4" opacity="0.78"/>
+  <!-- tiny boat -->
+  <path d="M20 36h24l4 3c-4 5-10 8-16 8s-12-3-16-8l4-3z" fill="rgba(7,18,41,.88)"/>
+  <path d="M27 33h10c2 0 4 2 4 4v2H23v-2c0-2 2-4 4-4z" fill="rgba(7,18,41,.65)"/>
+  <!-- Amsterdam XXX -->
+  <g transform="translate(38 17)" opacity="0.92">
+    <rect x="0" y="0" width="2.3" height="10" rx="1.15" fill="rgba(7,18,41,.82)" transform="rotate(45 1.15 5)"/>
+    <rect x="0" y="0" width="2.3" height="10" rx="1.15" fill="rgba(7,18,41,.82)" transform="rotate(-45 1.15 5)"/>
+  </g>
+  <g transform="translate(45 22)" opacity="0.72">
+    <rect x="0" y="0" width="2.3" height="10" rx="1.15" fill="rgba(7,18,41,.82)" transform="rotate(45 1.15 5)"/>
+    <rect x="0" y="0" width="2.3" height="10" rx="1.15" fill="rgba(7,18,41,.82)" transform="rotate(-45 1.15 5)"/>
+  </g>
+</svg>
