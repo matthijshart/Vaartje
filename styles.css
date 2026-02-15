@@ -78,6 +78,11 @@ h4{ font-size: 16px; }
   -webkit-backdrop-filter: blur(14px);
   background: rgba(246, 250, 255, .70);
   border-bottom: 1px solid rgba(7,18,41,.08);
+  transition: transform .24s var(--ease), box-shadow .24s var(--ease);
+}
+.site-header--hidden{
+  transform: translateY(-102%);
+  box-shadow: none;
 }
 .header-inner{
   display: flex;
@@ -272,6 +277,12 @@ h4{ font-size: 16px; }
   font-weight: 650;
   font-size: 13px;
   color: rgba(7,18,41,.78);
+}
+
+.card__price{
+  margin: 0 0 10px;
+  font-weight: 750;
+  color: var(--deep);
 }
 
 .scroll-hint{
